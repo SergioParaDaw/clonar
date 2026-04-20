@@ -1,0 +1,139 @@
+/* Configuración General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f6f8fa; /* Gris claro estilo GitHub */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Tarjeta Principal */
+.container {
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #d0d7de;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(140, 149, 159, 0.2);
+}
+
+/* Iconos y Texto */
+.success-icon {
+    font-size: 64px;
+    color: #1a7f37; /* Verde GitHub */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1f2328;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #636c76;
+    margin-bottom: 30px;
+}
+
+/* Detalles del Repo */
+.repo-info {
+    background-color: #f6f8fa;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+.info-row:last-child {
+    margin-bottom: 0;
+}
+
+.label {
+    color: #636c76;
+    font-weight: 500;
+}
+
+.value {
+    color: #1f2328;
+    font-weight: 600;
+}
+
+code.value {
+    background: #eff1f3;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+/* Botones */
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+    border: 1px solid transparent;
+}
+
+.btn-primary {
+    background-color: #1f2328;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #2b3137;
+}
+
+.btn-secondary {
+    background-color: #f6f8fa;
+    color: #1f2328;
+    border-color: #d0d7de;
+}
+
+.btn-secondary:hover {
+    background-color: #ebeff2;
+}
+
+/* Footer */
+.footer {
+    margin-top: 25px;
+}
+
+.footer a {
+    font-size: 13px;
+    color: #0969da;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
